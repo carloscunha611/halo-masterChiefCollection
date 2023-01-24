@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./src/images/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Halo: Master Chief Collection</title>
+  </head>
+  <body>
+    <div class="bg-hero">
+      <video class="video" autoplay loop muted>
+        <source src="./src/videos/video-background.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <header class="navBar">
+      <a>
+        <img
+          class="logo"
+          src="./src/images/a56ff1a378b80c51b65395011b05bd87.png"
+          alt="logo chapéu Mario"
+        />
+      </a>
+      <nav>
+        <ul class="buttons-navBar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Detalhes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="informacoes">
+        <h1 class="tittle">A EXPERIÊNCIA HALO DEFINITIVA</h1>
+        <p class="descrition">
+          A série que revolucionou o mundo dos jogos, incluindo seis títulos
+          lendários.
+        </p>
+
+        <div class="dispositives">
+          <p>DISPONÍVEL EM:</p>
+          <ul>
+            <li><ion-icon name="logo-xbox"></ion-icon></li>
+            <li><ion-icon name="logo-windows"></ion-icon></li>
+            <li><ion-icon name="logo-steam"></ion-icon></li>
+          </ul>
+          <p>INCLUSO NO XBOX GAME PASS</p>
+          <button class="button-trailer">Assista o Trailer</button>
+        </div>
+      </div>
+
+      <div class="modal">
+        <div class="conteudo-modal">
+          <span class="close-modal">X</span>
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/4qBkw4YwGrM"
+            title="Halo: The Master Chief Collection - The Ultimate Halo Experience"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="./src/js/index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
