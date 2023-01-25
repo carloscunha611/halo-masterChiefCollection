@@ -13,63 +13,124 @@
     <title>Halo: Master Chief Collection</title>
   </head>
   <body>
-    <div class="bg-hero">
-      <video class="video" autoplay loop muted>
-        <source src="./src/videos/video-background.mp4" type="video/mp4" />
-      </video>
-    </div>
-
     <header class="navBar">
       <a>
-        <img
-          class="logo"
-          src="./src/images/a56ff1a378b80c51b65395011b05bd87.png"
-          alt="logo chapéu Mario"
-        />
+        <img class="logo" src="./src/images/logo.png" alt="logo chapéu Mario" />
       </a>
       <nav>
         <ul class="buttons-navBar">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Detalhes</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#details">Detalhes</a></li>
         </ul>
       </nav>
     </header>
 
     <main class="container">
-      <div class="informacoes">
-        <h1 class="tittle">A EXPERIÊNCIA HALO DEFINITIVA</h1>
-        <p class="descrition">
-          A série que revolucionou o mundo dos jogos, incluindo seis títulos
-          lendários.
-        </p>
-
-        <div class="dispositives">
-          <p>DISPONÍVEL EM:</p>
-          <ul>
-            <li><ion-icon name="logo-xbox"></ion-icon></li>
-            <li><ion-icon name="logo-windows"></ion-icon></li>
-            <li><ion-icon name="logo-steam"></ion-icon></li>
-          </ul>
-          <p>INCLUSO NO XBOX GAME PASS</p>
-          <button class="button-trailer">Assista o Trailer</button>
+      <section id="home">
+        <div class="bg-home">
+          <video class="video" autoplay loop muted>
+            <source src="./src/videos/video-background.mp4" type="video/mp4" />
+          </video>
         </div>
-      </div>
 
-      <div class="modal">
-        <div class="conteudo-modal">
-          <span class="close-modal">X</span>
-          <iframe
-            id="video"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/4qBkw4YwGrM"
-            title="Halo: The Master Chief Collection - The Ultimate Halo Experience"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
+        <div class="informacoes">
+          <h1 class="tittle">A EXPERIÊNCIA HALO DEFINITIVA</h1>
+          <p class="descrition">
+            A série que revolucionou o mundo dos jogos, incluindo seis títulos
+            lendários.
+          </p>
+
+          <div class="dispositives">
+            <p>DISPONÍVEL EM:</p>
+            <ul>
+              <li><ion-icon name="logo-xbox"></ion-icon></li>
+              <li><ion-icon name="logo-windows"></ion-icon></li>
+              <li><ion-icon name="logo-steam"></ion-icon></li>
+            </ul>
+            <p>INCLUSO NO XBOX GAME PASS</p>
+            <button class="button-trailer">Assista o Trailer</button>
+          </div>
         </div>
-      </div>
+
+        <div class="modal">
+          <div class="conteudo-modal">
+            <span class="close-modal">X</span>
+            <iframe
+              id="video"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/4qBkw4YwGrM"
+              title="Halo: The Master Chief Collection - The Ultimate Halo Experience"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="details">
+        <div class="bg-details">
+          <img src="./src/images/bg-details1.png" alt="background" />
+        </div>
+
+        <div class="txt-area">
+          <p class="sub">
+            VIVENCIE MOMENTOS ICÔNICOS DA SÉRIE HALO, REUNIDOS EM UMA ÚNICA
+            EXPERIÊNCIA INTEGRADA
+          </p>
+          <h1>SEIS JOGOS, UMA ÚNICA SAGA ÉPICA</h1>
+
+          <p class="descrition">
+            Halo: The Master Chief Collection oferece aos jogadores uma
+            envolvente jornada exclusiva em seis jogos: Halo: Reach, Halo:
+            Combat Evolved Anniversary, Halo 2: Anniversary, Halo 3, a campanha
+            Halo 3: ODST e Halo 4. Dê início à sua jornada com a coragem
+            admirável de Noble Seis em Halo: Reach e termine com a ascensão de
+            um novo inimigo em Halo 4, vivendo a saga completa do Master Chief
+            em um total de 67 missões de campanha.
+          </p>
+        </div>
+      </section>
+
+      <footer>
+        <ul>
+          <li>
+            <a href="#" target="_blank">
+              <img src="./src/images/meuLogo.png" alt="Meu logo" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/carloscunha611/"
+              target="_blank"
+            >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/carloscunha611" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/carloscunha.611/"
+              target="_blank"
+            >
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://account.xbox.com/pt-BR/Profile?xr=mebarnav"
+              target="_blank"
+            >
+              <ion-icon name="logo-xbox"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </footer>
     </main>
 
     <!-- Scripts -->
