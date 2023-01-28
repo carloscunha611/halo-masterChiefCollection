@@ -298,7 +298,7 @@ body .container footer ul li img {
     width: 100%;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 375px) {
   body .navBar {
     padding: 1rem;
   }
