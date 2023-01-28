@@ -172,7 +172,7 @@ body .container #home .bg-home .video {
 body .container #home .bg-home::after {
   content: "";
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -227,6 +227,7 @@ body .container #details .bg-details {
 body .container #details .bg-details img {
   width: 95%;
   height: 100%;
+  object-fit: cover;
 }
 body .container #details::after {
   position: absolute;
@@ -276,11 +277,17 @@ body .container footer ul li img {
 }
 
 @media (max-width: 428px) {
+  body {
+    overflow: hidden;
+  }
   body .navBar {
     padding: 1rem;
   }
   body .navBar .logo {
-    width: 8rem;
+    width: 4.5rem;
+  }
+  body .navBar nav li a {
+    font-size: 1;
   }
   body .container #home .modal .conteudo-modal {
     align-items: center;
