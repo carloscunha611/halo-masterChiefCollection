@@ -275,4 +275,36 @@ body .container footer ul li img {
   width: 2rem;
 }
 
+@media (max-width: 428px) {
+  body .navBar {
+    padding: 1rem;
+  }
+  body .navBar .logo {
+    width: 8rem;
+  }
+  body .container #home .modal .conteudo-modal {
+    align-items: center;
+  }
+  body .container #home .modal .conteudo-modal iframe {
+    width: 100%;
+  }
+  body .container #details .txt-area {
+    height: 85%;
+    width: 100%;
+    background: rgba(31, 31, 31, 0.9);
+  }
+  body .container #details .bg-details img {
+    object-fit: cover;
+    width: 100%;
+  }
+}
+@media (max-width: 360px) {
+  body .navBar {
+    padding: 1rem;
+  }
+  body .navBar .logo {
+    width: 4rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
