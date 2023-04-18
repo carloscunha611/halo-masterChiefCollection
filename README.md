@@ -6,10 +6,11 @@
 
 > Site de promoção de um produto, neste caso o jogo eletrônico da produtora de jogos Xbox Studios.
 
-## 💻 Funcionalidades
+## 💻 Funcionalidades e descrições
 
-- O site é responsivo, o que significa que pode ser acessado em diversos tipos de dispositivos.
-- Botão que permite assistir a um vídeo explicativo sobre o produto diretamente no site, sem precisar acessar o YouTube.
+- Site otimizado para acesso em dispositivos móveis, tablets e desktops.
+- Vídeo explicativo integrado ao site, permitindo aos usuários assistirem ao trailer ou gameplay do jogo sem sair da página.
+- Design moderno e atraente, com destaque para imagens do jogo e elementos visuais relacionados à temática.
 
 <div align="center">
   <img src=".github/previwe1.png" alt="Preview" width="400">
