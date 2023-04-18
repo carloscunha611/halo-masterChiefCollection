@@ -22,7 +22,7 @@
 - JavaScript
 - git / github
 
-## 🔗 Portifolio e links
+## 🔗 Portfólio e links
 
 <div align = center>
 <a href = "https://carloscunha611.github.io/portfolio/"><img src='./src/images/meuLogo.png'> 
