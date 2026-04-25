@@ -15,7 +15,11 @@
   <body>
     <header class="navBar">
       <a href="https://carloscunha611.github.io/halo-masterChiefCollection/">
-        <img class="logo" src="./src/images/logo.png" alt="logo chapéu Mario" />
+        <img
+          class="logo"
+          src="./src/images/logo.png"
+          alt="Logo Halo: Master Chief Collection"
+        />
       </a>
       <nav>
         <ul class="buttons-navBar">
@@ -28,7 +32,15 @@
     <main class="container">
       <section id="home">
         <div class="bg-home">
-          <video class="video" autoplay loop muted>
+          <video
+            class="video"
+            autoplay
+            loop
+            muted
+            playsinline
+            preload="metadata"
+            aria-hidden="true"
+          >
             <source src="./src/videos/video-background.mp4" type="video/mp4" />
           </video>
         </div>
@@ -48,13 +60,15 @@
               <li><ion-icon name="logo-steam"></ion-icon></li>
             </ul>
             <p>INCLUSO NO XBOX GAME PASS</p>
-            <button class="button-trailer">Assista o Trailer</button>
+            <button class="button-trailer" type="button">Assista o Trailer</button>
           </div>
         </div>
 
-        <div class="modal">
+        <div class="modal" role="dialog" aria-modal="true" aria-hidden="true">
           <div class="conteudo-modal">
-            <span class="close-modal">X</span>
+            <button class="close-modal" type="button" aria-label="Fechar trailer">
+              X
+            </button>
             <iframe
               id="video"
               width="560"
@@ -62,6 +76,8 @@
               src="https://www.youtube.com/embed/4qBkw4YwGrM"
               title="Halo: The Master Chief Collection - The Ultimate Halo Experience"
               frameborder="0"
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
@@ -71,7 +87,7 @@
 
       <section id="details">
         <div class="bg-details">
-          <img src="./src/images/bg-details1.png" alt="background" />
+          <img src="./src/images/bg-details1.png" alt="Cena de Halo" />
         </div>
 
         <div class="txt-area">
@@ -99,20 +115,29 @@
             <a
               href="https://carloscunha611.github.io/portfolio/"
               target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Portfolio"
             >
-              <img src="./src/images/meuLogo.png" alt="Meu logo" />
+              <img src="./src/images/meuLogo.png" alt="Logo do portfólio" />
             </a>
           </li>
           <li>
             <a
               href="https://www.linkedin.com/in/carloscunha611/"
               target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
             >
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
           <li>
-            <a href="https://github.com/carloscunha611" target="_blank">
+            <a
+              href="https://github.com/carloscunha611"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
@@ -120,6 +145,8 @@
             <a
               href="https://www.instagram.com/carloscunha611_/"
               target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
             >
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
@@ -128,6 +155,8 @@
             <a
               href="https://account.xbox.com/pt-BR/Profile?xr=mebarnav"
               target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Xbox"
             >
               <ion-icon name="logo-xbox"></ion-icon>
             </a>
